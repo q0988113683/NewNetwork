@@ -12,7 +12,7 @@ import SwiftyJSON
 struct  NetworkRequest {
     var endpoint: String = ""
     var apiName: String  = ""
-    var baseUrl: String = "https://api.shareapp.com.tw/ShareAPI/"
+    var baseUrl: String = ""
     var methodStr: String = ""
     var params: [String : AnyObject]  = [:]
     var urlRequest: [String : String] = ["application/json":"Content-Type"]
